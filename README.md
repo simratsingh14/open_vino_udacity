@@ -26,12 +26,12 @@ File contained are:-
 1. infrence.py:- supporting file for app.py
 1. Capture.PNG:- Screenshot of server with video server
 1. test_video.mp4:- Input video given to program
-1. out_example.mp4 :- output video seen on server
+1. out_video.mp4 :- output video seen on server
 
 
 ### Library Used:-
 1. OpenVino toolkit 
 1. openCV for image processing
 1. Numpy
-1. ensorflow
+1. Tensorflow
 1. paho.mqqt
