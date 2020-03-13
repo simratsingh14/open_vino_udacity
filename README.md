@@ -6,7 +6,7 @@
 ### Why Edge Application?
 Defined as edge computing as “a part of a distributed computing topology in which information processing is located close to the edge – where things and people produce or consume that information.”
 
-#### Infrence from Video
+###  1. Infrence from Video
 This folder cantains a project which analize the [video](https://github.com/simratsingh14/open_vino_udacity/blob/master/infrences%20fromv%20ideo/pets.mp4)  and return the time two particular set of pets are in camera scene and returns the timestamp when a particular event occours.
 
 File contained are:-
@@ -16,3 +16,22 @@ File contained are:-
 1. app.py :- Main file of python
  
 
+###  2. integrating-on -web
+In this project, Data was transfered from Edge Application to the web Server using **MQTT** and **FFmpeg servers**.
+[Input video](https://github.com/simratsingh14/open_vino_udacity/blob/master/integrating-on%20-web/test_video.mp4) was converted to [output video](https://github.com/simratsingh14/open_vino_udacity/blob/master/integrating-on%20-web/test_video.mp4) and was dispalyed along with data like **speed** and **classes counted** from JSON server
+
+
+File contained are:-
+1. app.py :- Main file of python
+1. infrence.py:- supporting file for app.py
+1. Capture.PNG:- Screenshot of server with video server
+1. test_video.mp4:- Input video given to program
+1. out_example.mp4 :- output video seen on server
+
+
+### Library Used:-
+1. OpenVino toolkit 
+1. openCV for image processing
+1. Numpy
+1. ensorflow
+1. paho.mqqt
