@@ -9,4 +9,10 @@ Defined as edge computing as “a part of a distributed computing topology in wh
 #### Infrence from Video
 This folder cantains a project which analize the [video](https://github.com/simratsingh14/open_vino_udacity/blob/master/infrences%20fromv%20ideo/pets.mp4)  and return the time two particular set of pets are in camera scene and returns the timestamp when a particular event occours.
 
-![Dog-cat attacking each other]
+File contained are:-
+1. model.xml:- xml reprenstaion of Deep Learning Model used as a infrence to model
+1. model.bin:- bin reprenstaion of Deep Learning Model
+1. Annotation 2020-03-13 201346.png:- Screenshot of image
+1. app.py :- Main file of python
+ 
+
